@@ -1,0 +1,1 @@
+export const randomUserApi = "https://randomuser.me/api"
