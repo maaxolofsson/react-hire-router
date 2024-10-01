@@ -5,6 +5,7 @@ function HireForm({ person, hire }) {
 
   function handleSubmit(event) {
     person.wage = wage
+    person.hired = true
     hire(person)
     event.preventDefault()
   }

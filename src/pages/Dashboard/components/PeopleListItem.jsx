@@ -11,6 +11,9 @@ function PeopleListItem({ person }) {
       <Link style={{ margin: "5px" }} to={"/view/" + person.index}>
         View profile
       </Link>
+      {person.hired ? <Link style={{ margin: "5px" }} to={"/edit/" + person.index}>
+        Edit profile
+      </Link> : null}
     </li>
   )
 }
